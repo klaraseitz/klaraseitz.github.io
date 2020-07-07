@@ -1,14 +1,19 @@
 <template>
   <div class="hello">
-    <p>
-      I'm a Software Developer with a Masters Degree from HPI, Potsdam, Germany (September 2020).
-    </p>
-    <ProjectCard></ProjectCard>
+    <v-img height="125" src="./../assets/flowers.jpg">
+      <v-row align="center" class=" pa-2 fill-height">
+        <v-col align="center">
+          <div class="text-h2 black--text">Klara Seitz</div>
+          <div class="text-body-1 black--text">Software Developer, M.Sc.</div>
+        </v-col>
+      </v-row>
+    </v-img>
+    <ProjectTimeline></ProjectTimeline>
   </div>
 </template>
 
 <script>
-import ProjectCard from "./ProjectCard";
+import ProjectTimeline from "./ProjectTimeline";
 
 export default {
   name: 'PortfolioOverview',
@@ -16,7 +21,7 @@ export default {
     msg: String
   },
   components: {
-    ProjectCard
+    ProjectTimeline
   }
 }
 </script>
