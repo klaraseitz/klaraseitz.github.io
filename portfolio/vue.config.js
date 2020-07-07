@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/klaraseitz.github.io/',
+  publicPath: '',
   "transpileDependencies": [
     "vuetify"
   ]
