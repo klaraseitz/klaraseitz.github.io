@@ -89,7 +89,7 @@
               <v-icon left>mdi-play-circle-outline</v-icon> Try the Prototype
             </v-btn>
             <v-btn href="/examples" text>
-              <v-icon left>mdi-download</v-icon> Download examples to open in the prototype
+              <v-icon left>mdi-download</v-icon> examples
             </v-btn>
             <v-btn href="https://github.com/klaraseitz/LayerwiseCrochet" text>
               <v-icon left>mdi-code-json</v-icon> View the Code
