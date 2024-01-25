@@ -1,14 +1,21 @@
 <template>
   <div class="hello">
-    <v-img height="125" src="./../assets/flowers.jpg">
-      <v-row align="center" class=" pa-2 fill-height">
+    <v-img height="150" src="./../assets/flowers.jpg">
+      <v-row align="center" class="pa-2 fill-height">
         <v-col align="center">
-          <div class="text-h2 black--text">Klara Seitz</div>
-          <div class="text-body-1 black--text">Software Developer, M.Sc.</div>
+          <div class="text-h2 black--text" style="text-shadow: #fff 1px 0 10px">
+            Klara Seitz
+          </div>
+          <div
+            class="text-body-1 black--text"
+            style="text-shadow: #fff 1px 0 10px"
+          >
+            Software Developer, M.Sc.
+          </div>
         </v-col>
       </v-row>
     </v-img>
-    <ProjectTimeline></ProjectTimeline>
+    <ProjectTimeline class="mx-10"></ProjectTimeline>
   </div>
 </template>
 
@@ -16,14 +23,14 @@
 import ProjectTimeline from "./ProjectTimeline";
 
 export default {
-  name: 'PortfolioOverview',
+  name: "PortfolioOverview",
   props: {
-    msg: String
+    msg: String,
   },
   components: {
-    ProjectTimeline
-  }
-}
+    ProjectTimeline,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
